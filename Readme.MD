@@ -6,24 +6,40 @@
 
 ## Description
 
-_This is a Job Board. _
+_ Hangman. _
 
 ## Specs
 
-Job Opening class
-    -Title
-    -Description
-    -Email
-    -Phonenumber
+Game class
+    - Solution (string)
+    - guesses (char list)
+    - wrong guesses (char list)
+    - correct guesses (char list)
+    - max guesses (int)
+    - game flag (int(0 = game going, 1 = lose, 2 = win)
 
-* Add new job opening
-* Test getter+setter for one property
-* add itself to _instances
-* Return list of instances
-* Implements IDs to instances
-* Returns correct item when referenced by ID
-* Can delete instances when referenced by ID
+* game constructor
+ - game has correct answer
+ - game has hidden answer
 
+* Remembers all previous checks
+    - counts the amount of guesses
+
+* Checks for & filters redundant guesses
+* knows letter positions in answer
+* Breaks words into individual characters
+    - see if you need to do this at all
+* Check character vs every letter in answer
+    - Check for false
+    - Check for true
+    - Check if is number
+
+* new Guess moves wrong letter into wrong guess list 
+    + Too many wrong guesses (based on difficulty)
+* game flag changes if you win
+
+* game flag changes properly if you win or lose
+* If unsolved is equal to solution
 ## Setup/Installation Requirements
 
 * _This is a great place_
