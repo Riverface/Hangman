@@ -2007,6 +2007,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "HangMan/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/HangMan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HangMan.dll": {}
+        }
       }
     }
   },
@@ -6677,10 +6687,16 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "HangMan/1.0.0": {
+      "type": "project",
+      "path": "../HangMan/HangMan.csproj",
+      "msbuildProject": "../HangMan/HangMan.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "HangMan >= 1.0.0",
       "MSTest.TestAdapter >= 1.2.0",
       "MSTest.TestFramework >= 1.2.0",
       "Microsoft.NET.Test.Sdk >= 15.0.0"
@@ -6693,11 +6709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj",
       "projectName": "HangMan.Tests",
-      "projectPath": "c:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj",
+      "projectPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj",
       "packagesPath": "C:\\Users\\sonos\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\obj\\",
+      "outputPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6713,7 +6729,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj": {
+              "projectPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

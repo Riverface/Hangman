@@ -12163,11 +12163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\Bplate.csproj",
-      "projectName": "Bplate",
-      "projectPath": "c:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\Bplate.csproj",
+      "projectUniqueName": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj",
+      "projectName": "HangMan",
+      "projectPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj",
       "packagesPath": "C:\\Users\\sonos\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\obj\\",
+      "outputPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

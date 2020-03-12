@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\Bplate.csproj",
+  "FilePath": "c:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2958,7 +2958,7 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "Bplate",
+  "RootNamespace": "HangMan",
   "Documents": [
     {
       "FilePath": "c:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\Views\\Home\\Index.cshtml",
