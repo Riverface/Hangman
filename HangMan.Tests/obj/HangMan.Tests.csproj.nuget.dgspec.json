@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj": {}
+    "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\HangMan.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj": {
+    "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\HangMan.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\HangMan.Tests.csproj",
         "projectName": "HangMan.Tests",
-        "projectPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj",
+        "projectPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\HangMan.Tests.csproj",
         "packagesPath": "C:\\Users\\sonos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan.Tests\\obj\\",
+        "outputPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
