@@ -1,35 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\HangMan.Tests.csproj": {}
+    "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\HangMan.Tests.csproj": {
+    "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\HangMan.Tests.csproj",
+        "projectUniqueName": "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj",
         "projectName": "HangMan.Tests",
-        "projectPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\HangMan.Tests.csproj",
-        "packagesPath": "C:\\Users\\sonos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\Hangman.tests\\obj\\",
+        "projectPath": "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan.Tests\\HangMan.Tests.csproj",
+        "packagesPath": "C:\\Users\\Akigawa\\.nuget\\packages\\",
+        "outputPath": "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sonos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "D:\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj": {
-                "projectPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj"
+              "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan\\HangMan.csproj": {
+                "projectPath": "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan\\HangMan.csproj"
               }
             }
           }
@@ -41,7 +38,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.2": {
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -54,6 +51,12 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[15.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -66,43 +69,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj": {
+    "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan\\HangMan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj",
+        "projectUniqueName": "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan\\HangMan.csproj",
         "projectName": "HangMan",
-        "projectPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\HangMan.csproj",
-        "packagesPath": "C:\\Users\\sonos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sonos\\Documents\\Classwork\\Hangman\\Hangman\\HangMan\\obj\\",
+        "projectPath": "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan\\HangMan.csproj",
+        "packagesPath": "C:\\Users\\Akigawa\\.nuget\\packages\\",
+        "outputPath": "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sonos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "D:\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -152,7 +133,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
