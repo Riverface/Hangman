@@ -28,7 +28,7 @@ Game class
 * Checks for & filters redundant guesses
 * knows letter positions in answer
 * Breaks words into individual characters
-    - see if you need to do this at all
+    - see if you need to do this at all (Dev note: I didn't)
 * Check character vs every letter in answer
     - Check for false
     - Check for true

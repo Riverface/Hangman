@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\Akigawa\\.nuget\\packages\\",
         "outputPath": "D:\\Schoolstuff\\Hangman\\Hangman\\HangMan\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "D:\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],

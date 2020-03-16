@@ -29,20 +29,20 @@ namespace HangMan.Models
             bool found = false;
             char temp = '_';
             input = Char.ToLower(input);
-            if (char.IsLetter(input))
+            if (char.IsLetter(input) && !GuessExists(input))
             {
                 for (int i = 0; Solution.Length > i; i++)
                 {
-                    if (GuessCorrect(input, i) && !GuessExists(input))
+                    if (GuessCorrect(input, i))
                     {
                         Correct += input;
                         break;
                     }
-                    else
-                    {
-                        Wrong += input;
-                    }
                 }
+            }
+            if (!GuessExists(input))
+            {
+                Wrong += input;
             }
         }
 

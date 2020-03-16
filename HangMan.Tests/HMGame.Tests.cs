@@ -32,7 +32,7 @@ namespace HangMan.Tests
             Assert.AreEqual("d_d", test.Unsolved);
         }
         [TestMethod]
-        public void HMGame_RemembersAllGuesses_String()
+        public void HMGame_RemembersAllGuessesTrue_String()
         {
             HMGame test = new HMGame("Dad", 12);
             test.Guess('d');
@@ -41,7 +41,18 @@ namespace HangMan.Tests
             // test.Unsolved should equal D_D
             // Correct should equal D
             Assert.AreEqual("da", test.Correct);
-            Assert.AreEqual('p', test.Wrong);
+        }
+        [TestMethod]
+        public void HMGame_RemembersAllGuessesFalse_String()
+        {
+            HMGame test = new HMGame("Dad", 12);
+            test.Guess('d');
+            test.Guess('p');
+            test.Guess('a');
+            test.Guess('n');
+            // test.Unsolved should equal D_D
+            // Correct should equal D
+            Assert.AreEqual("pn", test.Wrong);
         }
     }
 
