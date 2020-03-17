@@ -1,0 +1,21 @@
+@using HangMan.Models;
+<h1></h1>
+Welcome!
+@if(Model.Game == 0){
+
+    <ul>
+    @Model.Unsolved
+    </ul>
+    <Form action="Game" method="POST">
+    <label for="guess">Guess (One letter)</label>
+    <input type="text" name="guess" maxlength="1">
+    <button type="submit">Guess!</button>
+    </Form>
+}
+else if(Model.Game == 1){
+    <ul>You lose. <a href="/HangMan/New">Try again?</a></ul>
+}
+else if(Model.Game == 2){
+    <ul>You won!</ul>
+    <a href="/HangMan/New">Play again?</a>
+}

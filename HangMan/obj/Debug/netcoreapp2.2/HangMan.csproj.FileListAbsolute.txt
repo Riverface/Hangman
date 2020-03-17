@@ -20,3 +20,4 @@ D:\Schoolstuff\Hangman\Hangman\HangMan\obj\Debug\netcoreapp2.2\HangMan.Views.pdb
 D:\Schoolstuff\Hangman\Hangman\HangMan\obj\Debug\netcoreapp2.2\HangMan.dll
 D:\Schoolstuff\Hangman\Hangman\HangMan\obj\Debug\netcoreapp2.2\HangMan.pdb
 D:\Schoolstuff\Hangman\Hangman\HangMan\obj\Debug\netcoreapp2.2\HangMan.csproj.CopyComplete
+D:\Schoolstuff\Hangman\Hangman\hangman\obj\Debug\netcoreapp2.2\Razor\Views\HangMan\Game.cshtml.g.cs

@@ -4,6 +4,7 @@ namespace HangMan.Models
 {
     public class HMGame
     {
+        public static HMGame game;
         public string Solution;
         //
         public string Unsolved;
@@ -20,14 +21,15 @@ namespace HangMan.Models
         {
             Solution = solution.ToLower();
             MaxGuess = maxGuess;
-            Unsolved = "";
+            Unsolved = "_";
+            for(int i = 0; Solution.Length > i; i++){
+            Unsolved += "_";
+            }
             Correct = "";
             Wrong = "";
         }
         public void Guess(char input)
         {
-            bool found = false;
-            char temp = '_';
             input = Char.ToLower(input);
             if (char.IsLetter(input) && !GuessExists(input))
             {
@@ -44,6 +46,7 @@ namespace HangMan.Models
             {
                 Wrong += input;
             }
+            DetectState();
         }
 
         public bool GuessCorrect(char input, int index)
@@ -103,6 +106,19 @@ namespace HangMan.Models
                     found = false;
                 }
                 Console.WriteLine(Unsolved);
+            }
+        }
+        public void DetectState(){
+            if(Unsolved == Solution){
+            Game = 2;
+            }
+            else if(Unsolved!= Solution){
+                if(Wrong.Length == MaxGuess){
+                Game = 1;
+                }
+                else{
+                Game = 0;
+                }
             }
         }
     }
